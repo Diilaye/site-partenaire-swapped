@@ -1,0 +1,30 @@
+# Node.js / npm
+node_modules/
+npm-debug.log*
+
+# Build / compiled files
+build/
+dist/
+out/
+*.log
+*.log.*
+*.tmp
+
+# Editor / IDE specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+package-lock.json
+yarn.lock
