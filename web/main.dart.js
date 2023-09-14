@@ -94812,7 +94812,7 @@ return s},
 $S:539}
 A.PC.prototype={
 D(a){var s=A.aHu(null,"Josefin_Sans",!0)
-return new A.AO(A.a7(["/",new A.aed(),"/login",new A.aee(),"/success",new A.aef(),"/failled",new A.aeg()],t.N,t.Ab),"/failled","Partenaire Swapped",s,B.Wa,B.Wl,!1,null)}}
+return new A.AO(A.a7(["/",new A.aed(),"/login",new A.aee(),"/success",new A.aef(),"/failled",new A.aeg()],t.N,t.Ab),"/","Partenaire Swapped",s,B.Wa,B.Wl,!1,null)}}
 A.aed.prototype={
 $1(a){return new A.nv(A.kM(),new A.aec(),null,t.tN)},
 $S:540}
