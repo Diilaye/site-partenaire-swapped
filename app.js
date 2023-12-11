@@ -8,7 +8,7 @@ const port = 4700;
 
 app.use(express.static(__dirname + '/web/'));
 
-app.get('/', (req, res) => res.sendFile(path.resolve('web/index.html')));
+app.get('*', (req, res) => res.sendFile(path.resolve('web/index.html')));
 
 const server = http.createServer(app);
 
