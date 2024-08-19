@@ -31394,7 +31394,7 @@ et(a){return A.bcB(a)},
 bcB(a){var s=0,r=A.y(t.z),q,p,o,n
 var $async$et=A.z(function(b,c){if(b===1)return A.v(c,r)
 while(true)switch(s){case 0:o={}
-n=A.fC("http://localhost:4800/v1/api"+a)
+n=A.fC("https://api-swaped.deally.fr/v1/api"+a)
 o.a=""
 s=3
 return A.G(A.kq().a1(new A.aLF(o),t.P),$async$et)
@@ -31408,7 +31408,7 @@ L7(a){return A.bcc(a)},
 bcc(a){var s=0,r=A.y(t.z),q,p,o,n
 var $async$L7=A.z(function(b,c){if(b===1)return A.v(c,r)
 while(true)switch(s){case 0:o={}
-n=A.fC("http://localhost:4800/v1/api"+a)
+n=A.fC("https://api-swaped.deally.fr/v1/api"+a)
 o.a=""
 s=3
 return A.G(A.kq().a1(new A.aLg(o),t.P),$async$L7)
@@ -31425,7 +31425,7 @@ while(true)switch(s){case 0:n={}
 n.a=""
 s=3
 return A.G(A.kq().a1(new A.aMu(n),t.P),$async$iZ)
-case 3:p=A.fC("http://localhost:4800/v1/api"+b)
+case 3:p=A.fC("https://api-swaped.deally.fr/v1/api"+b)
 A.cc(p)
 o=t.N
 q=A.bdn(p,B.cg.lz(a),A.Q(["Content-Type","application/json","authorization","Bearer "+n.a],o,o)).a1(new A.aMv(),t.z)
@@ -31441,7 +31441,7 @@ o.a=""
 s=3
 return A.G(A.kq().a1(new A.aMn(o),t.P),$async$ik)
 case 3:p=t.N
-q=A.bdi(A.fC("http://localhost:4800/v1/api"+b),B.cg.lz(a),A.Q(["Content-Type","application/json","authorization","Bearer "+o.a],p,p)).a1(new A.aMo(),t.z)
+q=A.bdi(A.fC("https://api-swaped.deally.fr/v1/api"+b),B.cg.lz(a),A.Q(["Content-Type","application/json","authorization","Bearer "+o.a],p,p)).a1(new A.aMo(),t.z)
 s=1
 break
 case 1:return A.w(q,r)}})
